@@ -21,6 +21,6 @@ using namespace std;
 // X = colunas [j]
 // Y = linhas [i]
 int main() {
-  IO_Jogo Joguinho_Divertido_Pa_Caraio;
-  Joguinho_Divertido_Pa_Caraio.Interface();
+  IO_Jogo JogoDeXadrez;
+  JogoDeXadrez.Interface();
 }
