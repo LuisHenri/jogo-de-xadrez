@@ -20,7 +20,6 @@ using namespace std;
 
 // X = colunas [j]
 // Y = linhas [i]
-
 int main() {
   IO_Jogo JogoDeXadrez;
   JogoDeXadrez.Interface();
