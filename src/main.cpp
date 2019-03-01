@@ -24,4 +24,6 @@ using namespace std;
 int main() {
   IO_Jogo JogoDeXadrez;
   JogoDeXadrez.Interface();
+
+  return 0;
 }
