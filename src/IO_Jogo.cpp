@@ -1,27 +1,41 @@
+#include <iostream>
+#include <cstdint>
 #include <cctype>
 #include <fstream>
-#include <iostream>
-using namespace std;
 #include "IO_Jogo.hpp"
+using namespace std;
+
 IO_Jogo::IO_Jogo() {}
 
 IO_Jogo::~IO_Jogo() {}
 
 void IO_Jogo::Interface() {
-  int Resp = 0;
+  uint8_t Option = 0;
+
   cout << "Opções de Jogo:\n";
   cout << "0 . Iniciar novo jogo\n";
   cout << "1 . Iniciar jogo a partir de arquivo\n";
   cout << "R: ";
-  cin >> Resp;
+  cin >> Option;
 
-  if (Resp == 0) {
-    jogaJogo();
-  } else if (Resp == 1) {
-    string Keyboard;
-    cout << "Nome do arquivo [.dat]: ";
-    cin >> Keyboard;
-    jogaJogo(Keyboard);
+  switch (Option) {
+    case 0: {
+      jogaJogo();
+      break;
+    }
+
+    case 1: {
+      string Keyboard;
+      cout << "Nome do arquivo [.dat]: ";
+      cin >> Keyboard;
+      jogaJogo(Keyboard);
+      break;
+    }
+
+    default: {
+      cout << "Entrada inválida.\nEncerrando programa." << endl;
+      break;
+    }
   }
 }
 

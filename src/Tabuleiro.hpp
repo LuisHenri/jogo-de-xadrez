@@ -8,8 +8,6 @@
 #ifndef TABULEIRO_HPP_
 #define TABULEIRO_HPP_
 
-#include <string>
-using std::string;
 #include "Peca.hpp"
 // class Peca;   // Como ele sabe dos métodos sem o include?
 

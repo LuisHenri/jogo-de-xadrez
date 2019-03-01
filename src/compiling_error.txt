@@ -1,6 +1,6 @@
-/tmp/ccnOfzPg.o: In function `main':
-main.cpp:(.text+0x42): undefined reference to `Tabuleiro::Tabuleiro()'
-main.cpp:(.text+0x51): undefined reference to `Tabuleiro::printTab()'
-main.cpp:(.text+0x81): undefined reference to `Tabuleiro::~Tabuleiro()'
-main.cpp:(.text+0xa6): undefined reference to `Tabuleiro::~Tabuleiro()'
+/usr/bin/ld: /tmp/cctkdcMC.o: in function `main':
+main.cpp:(.text+0x26): undefined reference to `IO_Jogo::IO_Jogo()'
+/usr/bin/ld: main.cpp:(.text+0x35): undefined reference to `IO_Jogo::Interface()'
+/usr/bin/ld: main.cpp:(.text+0x49): undefined reference to `IO_Jogo::~IO_Jogo()'
+/usr/bin/ld: main.cpp:(.text+0x6e): undefined reference to `IO_Jogo::~IO_Jogo()'
 collect2: error: ld returned 1 exit status

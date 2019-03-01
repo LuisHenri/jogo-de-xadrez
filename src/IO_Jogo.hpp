@@ -2,9 +2,7 @@
 #define IO_JOGO_HPP_
 
 #include <string>
-using std::string;
 #include "Tabuleiro.hpp"
-// class Tabuleiro;
 
 class IO_Jogo {
 private:
@@ -15,7 +13,7 @@ public:
   ~IO_Jogo();
   void Interface();   // O que o usuário quer
   void jogaJogo();
-  void jogaJogo(string);
+  void jogaJogo(std::string);
 };
 
 #endif
