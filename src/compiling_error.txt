@@ -1,0 +1,6 @@
+/tmp/ccnOfzPg.o: In function `main':
+main.cpp:(.text+0x42): undefined reference to `Tabuleiro::Tabuleiro()'
+main.cpp:(.text+0x51): undefined reference to `Tabuleiro::printTab()'
+main.cpp:(.text+0x81): undefined reference to `Tabuleiro::~Tabuleiro()'
+main.cpp:(.text+0xa6): undefined reference to `Tabuleiro::~Tabuleiro()'
+collect2: error: ld returned 1 exit status
