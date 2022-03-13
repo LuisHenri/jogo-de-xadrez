@@ -8,22 +8,22 @@
 #include "Peca.hpp"
 
 Peca::Peca(char t_Cor, char t_Peca)
-  : m_Cor(t_Cor), m_Peca(t_Peca), movimentos(0) {}
+        : m_Cor(t_Cor), m_Peca(t_Peca), movimentos(0) {}
 
 Peca::~Peca() {}
 
 char Peca::getCor() const {
-  return m_Cor;
+    return m_Cor;
 }
 
 char Peca::getPeca() const {
-  return m_Peca;
+    return m_Peca;
 }
 
 void Peca::somaMovimento() {
-  ++movimentos;
+    ++movimentos;
 }
 
 int Peca::getMovimentos() const {
-  return movimentos;
+    return movimentos;
 }

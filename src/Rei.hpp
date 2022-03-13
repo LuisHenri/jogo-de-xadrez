@@ -12,9 +12,11 @@
 
 class Rei : public Peca {
 public:
-  Rei(char);
-  virtual ~Rei();
-  bool verificaMovimento(int, int, int, int, Peca * [8][8], bool) const;
+    Rei(char);
+
+    virtual ~Rei();
+
+    bool verificaMovimento(int, int, int, int, Peca *[8][8], bool) const;
 };
 
 #endif /* REI_HPP_ */

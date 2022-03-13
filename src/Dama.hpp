@@ -12,9 +12,11 @@
 
 class Dama : public Peca {
 public:
-  Dama(char);
-  virtual ~Dama();
-  bool verificaMovimento(int, int, int, int, Peca * [8][8], bool) const;
+    Dama(char);
+
+    virtual ~Dama();
+
+    bool verificaMovimento(int, int, int, int, Peca *[8][8], bool) const;
 };
 
 #endif /* DAMA_HPP_ */

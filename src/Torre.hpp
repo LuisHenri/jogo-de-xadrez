@@ -12,9 +12,11 @@
 
 class Torre : public Peca {
 public:
-  Torre(char);
-  virtual ~Torre();
-  bool verificaMovimento(int, int, int, int, Peca * [8][8], bool) const;
+    Torre(char);
+
+    virtual ~Torre();
+
+    bool verificaMovimento(int, int, int, int, Peca *[8][8], bool) const;
 };
 
 #endif /* TORRE_HPP_ */

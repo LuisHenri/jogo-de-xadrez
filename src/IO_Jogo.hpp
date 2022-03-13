@@ -6,14 +6,17 @@
 
 class IO_Jogo {
 private:
-  Tabuleiro m_Tabuleiro;
+    Tabuleiro m_Tabuleiro;
 
 public:
-  IO_Jogo();
-  ~IO_Jogo();
-  void Interface();   // O que o usuário quer
-  void jogaJogo();
-  void jogaJogo(std::string);
+    IO_Jogo();
+
+    ~IO_Jogo();
+
+    void Interface();   // O que o usuário quer
+    void jogaJogo();
+
+    void jogaJogo(std::string);
 };
 
 #endif

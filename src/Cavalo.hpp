@@ -12,9 +12,11 @@
 
 class Cavalo : public Peca {
 public:
-  Cavalo(char);
-  virtual ~Cavalo();
-  bool verificaMovimento(int, int, int, int, Peca * [8][8], bool) const;
+    Cavalo(char);
+
+    virtual ~Cavalo();
+
+    bool verificaMovimento(int, int, int, int, Peca *[8][8], bool) const;
 };
 
 #endif /* CAVALO_HPP_ */

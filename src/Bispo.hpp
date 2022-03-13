@@ -12,9 +12,11 @@
 
 class Bispo : public Peca {
 public:
-  Bispo(char);
-  virtual ~Bispo();
-  bool verificaMovimento(int, int, int, int, Peca * [8][8], bool) const;
+    Bispo(char);
+
+    virtual ~Bispo();
+
+    bool verificaMovimento(int, int, int, int, Peca *[8][8], bool) const;
 };
 
 #endif /* BISPO_HPP_ */
